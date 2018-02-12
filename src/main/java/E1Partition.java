@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class E1_Parition {
+public class E1Partition {
 
     ArrayList<Integer> partition(final ArrayList<Integer> originalArray, final int index) {
         final ArrayList<Integer> array = originalArray;
