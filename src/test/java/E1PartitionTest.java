@@ -3,11 +3,11 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-public class E1_PartitionTest {
+public class E1PartitionTest {
 
     @Test
     public void partitionTest_sampleArray() {
-        final E1_Parition partition = new E1_Parition();
+        final E1Partition partition = new E1Partition();
         final int index = 4;
         final ArrayList<Integer> list = new ArrayList<Integer>() {{
             add(1);
