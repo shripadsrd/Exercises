@@ -33,6 +33,5 @@ public class E1_PartitionTest {
         }};
         final ArrayList<Integer> partitionedList = partition.partition(list, index);
         Assert.assertArrayEquals(returnList.toArray(), partitionedList.toArray());
-//        System.out.println(partitionedList.toString());
     }
 }
