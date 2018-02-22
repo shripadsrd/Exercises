@@ -17,6 +17,6 @@ public class E5Height {
                 || diff > 1) {
             return Integer.MIN_VALUE;
         }
-        return diff + 1;
+        return Math.max(left, right) + 1;
     }
 }
